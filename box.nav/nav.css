@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    background: linear-gradient(rgba(119, 27, 161, 0.699),rgba(98, 19, 172, 0.719),rgba(114, 40, 40, 0.616));
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.navbar select option{
+    width: 20px;
+    background-color: rgb(20, 66, 66);
+}
+.navbar ul li select{
+    padding: 10px;
+    border-radius: 10rem;
+    background-color: rgba(125, 32, 179, 0.61);
+    color: white;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+}

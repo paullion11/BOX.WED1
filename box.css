@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+div{
+    display: flex;
+}
+body{
+    transition: all 0.5s ease-in-out;
+}
+body:hover{
+    background: black;
+  
+}
+
+/* div face-1 */
+.box-1{
+    width: 650px;
+    height: 400px;
+    background-color: rgba(238, 14, 238, 0.89);
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.568);
+    border-radius: 10rem;
+    transition: all 0.5s ease-in-out;
+}
+.box-1:hover{
+    border-radius:  10rem 0rem 10rem 0rem;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: rgba(179, 24, 132, 0.61);
+  
+}
+.box-1 h1{
+    font-size: 18px;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+/* div-1 face-2 */
+
+.div-1{
+    display: flex;
+}
+.box-2{
+    width: 650px;
+    height: 400px;
+    background-color: rgba(195, 0, 255, 0.973);
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.568);
+    border-radius: 10rem;
+    transition: all 0.5s ease-in-out;
+}
+.box-2:hover{
+    border-radius:  10rem 0rem 10rem 0rem;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color:rgba(66, 22, 102, 0.603);
+}
+.box-2 h1{
+    font-size: 18px;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.box-3{
+    width: 650px;
+    height: 400px;
+    background-color: rgba(48, 14, 238, 0.89);
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.568);
+    border-radius: 10rem;
+    transition: all 0.5s ease-in-out;
+}
+.box-3:hover{
+    border-radius:  10rem 0rem 10rem 0rem;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color:rgba(116, 26, 190, 0.603);
+}
+.box-3 h1{
+    font-size: 18px;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.box-4{
+    width: 650px;
+    height: 400px;
+    background-color: rgb(167, 14, 98);
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.568);
+    border-radius: 10rem;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 20px;
+}
+.box-4:hover{
+    border-radius: 10rem 0rem 10rem 0rem;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color:rgba(21, 211, 201, 0.603);
+}
+.box-4 h1{
+    font-size: 18px;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.box-5{
+    width: 300px;
+    height: 300px;
+    border-radius: 70% 70% 80% 85%/80% 80% 95% 90%;
+    background: linear-gradient(rgba(21, 211, 201, 0.603),rgba(116, 26, 190, 0.658),rgba(48, 14, 238, 0.89));
+    transform-style: preserve-3d;
+    animation: animate 15s linear infinite;
+}
+
+
+@keyframes animate{
+0%{
+    transform: perspective(1000px) rotate(0deg);
+}
+100%{
+    transform: perspective(1000px) rotate(360deg);
+}
+
+}
+.box-5:hover{
+    background: linear-gradient(rgba(97, 74, 226, 0.76),rgba(226, 36, 179, 0.774),rgba(88, 163, 233, 0.918));
+    color: whitesmoke;
+}
+.box-5 h1{
+    font-size: 18px;
+    padding-top: 100px;
+    padding-left: 70px;
+  
+}
+.roll{
+    padding-left: 30rem;
+    padding-top: 5px;
+}
+.box-4 h1 a,.box-3 h1 a,.box-2 h1 a,.box-1 h1 a{
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(6, 43, 78, 0.822);
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+span{
+    position: relative;
+    top: 20px;
+}
+h1 a:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 10rem;
+}
+span a:hover{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.534);
+    color: black;
+    border-radius: 10rem;
+    font-size: 17px;
+}
+.box-2 h1 span{
+    padding-top: 50rem;
+}
+@media only screen and (max-wdith:600px) {
+    body{
+        display: block;
+    }  
+}

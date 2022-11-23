@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+.box{
+    border: 1px solid transparent;
+    padding: 50px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(10, 10, 223);
+    transition: all 0.2 ease-in-out;
+}
+
+.box h2{
+    color: #3e71d1;
+    font: 20px;
+    text-align: center;
+}
+
+.box p{
+    color: #3e71d1;
+    font: 12px;
+    text-align: center;
+    position: relative;
+    right: 5px;  
+}
+
+.box div input{
+    height: 50px;
+    width: 200px;
+    color: transparent;
+    margin: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: all 0.2s ease-in-out;
+    z-index: 9;
+    color: black;
+}
+.box div input:hover{
+        background-color: aqua; 
+        border-radius: 10px;
+        width: 250px;
+}
+
+.box div button{
+    padding: .3rem 5rem;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: #3e71d1;
+    border-radius: 7px;
+    border: 1px solid #3e71d1;
+}
+.box div button:hover{
+    font-size: 19px;
+}
+
+
+.link a{
+    color: rgba(6, 93, 255, 0.774);
+    
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box div button a{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.box span p{
+    padding-top: 20px;
+}
+.box span p a{
+    padding: 8px;
+    background-color: #3e71d1;
+    color: black;
+}
+.box span p a:hover{
+    color: white;
+    border: 1px solid black;
+}
